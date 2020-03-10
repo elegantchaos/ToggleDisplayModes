@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B3EACBA24179E58002BD05D /* Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3EACBA24179E58002BD05D /* Fix Display.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fix Display.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3EACBC24179E58002BD05D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B3EACBE24179E58002BD05D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B3EACC024179E59002BD05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		8B3EACAD2417974F002BD05D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B3EACBA24179E58002BD05D /* Application.app */,
+				8B3EACBA24179E58002BD05D /* Fix Display.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 				8B03018F2417B85F003A19A4 /* Displays */,
 			);
 			productName = "Toggle Modes";
-			productReference = 8B3EACBA24179E58002BD05D /* Application.app */;
+			productReference = 8B3EACBA24179E58002BD05D /* Fix Display.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -290,7 +290,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.elegantchaos.Toggle-Modes";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fix Display";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -310,7 +310,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.elegantchaos.Toggle-Modes";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fix Display";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

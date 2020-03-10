@@ -1,10 +1,7 @@
-//
-//  AppDelegate.swift
-//  Toggle Modes
-//
-//  Created by Developer on 10/03/2020.
-//  Copyright © 2020 Elegant Chaos. All rights reserved.
-//
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+//  Created by Sam Deane on 10/03/20.
+//  All code (c) 2020 - present day, Elegant Chaos Limited.
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 import Cocoa
 import Displays
@@ -13,7 +10,6 @@ import Displays
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
         toggleMirroring {
             NSApp.terminate(self)
         }
@@ -31,7 +27,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             if display != main {
                 display.mirror(to: main)
                 
-                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now().advanced(by: .seconds(10))) {
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now().advanced(by: .seconds(2))) {
                     display.unmirror()
                     completion()
                 }
@@ -47,7 +43,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         for mode in modes {
             if mode != current {
                 display.mode = mode
-                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now().advanced(by: .seconds(10))) {
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now().advanced(by: .seconds(2))) {
                     display.mode = current
                     completion()
                 }

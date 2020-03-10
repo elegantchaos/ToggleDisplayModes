@@ -1,10 +1,7 @@
-//
-//  ViewController.swift
-//  Toggle Modes
-//
-//  Created by Developer on 10/03/2020.
-//  Copyright © 2020 Elegant Chaos. All rights reserved.
-//
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+//  Created by Sam Deane on 10/03/20.
+//  All code (c) 2020 - present day, Elegant Chaos Limited.
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 import Cocoa
 
