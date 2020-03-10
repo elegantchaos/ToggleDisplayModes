@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Displays",
+        "repositoryURL": "https://github.com/elegantchaos/Displays.git",
+        "state": {
+          "branch": null,
+          "revision": "75919792835b8a9369dece43275aeab9af765452",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
